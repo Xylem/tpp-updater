@@ -1,6 +1,6 @@
 {
   "name": "Twitch Plays Pokemon Updater",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 2,
   "description": "Displays live updates from AniNext.tv as notifications",
   "homepage_url": "http://www.twitch.tv/twitchplayspokemon",

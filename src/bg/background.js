@@ -18,7 +18,7 @@ function readUpdates() {
                 var message = jQuery(newestUpdate.title).text();
 
                 chrome.notifications.create("", {
-                    type: "image",
+                    type: "basic",
                     title: "Twitch Plays Pokemon", 
                     message: message,
                     iconUrl: "icons/icon48.png"
