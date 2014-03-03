@@ -1,17 +1,16 @@
 {
   "name": "Twitch Plays Pokemon Updater",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "manifest_version": 2,
   "description": "Displays live updates from Reddit as notifications",
   "homepage_url": "http://www.twitch.tv/twitchplayspokemon",
   "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
+    "48": "icons/icon48.png"
   },
   "background": {
     "scripts": [
       "js/jquery-2.1.0.min.js",
+      "js/socket.io.js",
       "src/bg/background.js"
     ],
     "persistent": true
